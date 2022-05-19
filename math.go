@@ -6,10 +6,10 @@ import (
 
 func main() {
 
-	fmt.Println(soma(10,10))
+	fmt.Println(Soma(10,10))
 
 }
 
-func soma(a int, b int) int {
+func Soma(a int, b int) int {
 	return a + b
 }
